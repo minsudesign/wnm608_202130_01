@@ -1,0 +1,51 @@
+:root {
+	--color-body: #111;
+	--color-main: #ff9f9f;
+	--color-main-dark: #1c1c6f;
+	--color-main-light: #0c472a;
+}
+
+body {
+	color: var(--color-body);
+	background-color: var(--color-neutral-light);
+}
+
+a {
+	color:var(--color-main);
+}
+
+
+.hero {
+	margin: 0;
+}
+.hero h1 {
+	font-size: 7vmin;
+	color: var(--color-neutral-light);
+	text-shadow: 4px 4px 2px rgba(225,196,196,0.8);
+}
+
+
+
+
+.flex-spacer {
+	flex: none;
+	width: 1em;
+}
+
+
+@media (max-width: 450px) {
+	.navbar h1 {
+		white-space: nowrap;
+	}
+	.navbar>.display-flex {
+		flex-wrap: wrap;
+	}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+/*table size*/
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+/*mobile size*/	
+}
